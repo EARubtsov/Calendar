@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="stylesheets/style.css">
+    <title>Document</title>
+    
+</head>
+<body>
+      
+
+     <div id="forJs"> 
+        <div id="intoDiv">January 2017</div>
+        <div id="littleField"></div>     
+
+        <div id="elem">   
+        <div id="forma">   
+        <form name="forma1" action="users/user/add" method="POST">
+            <p>Регистрация:</p><hr><br>
+        Ваша Фамилия:<br>
+        <input type="text" name="text1" size="20"
+                maxlength="50">
+        <br>Ваше Имя:<br>
+        <input type="text" name="text2" size="20"
+                maxlength="50">
+
+               
+        <br>Группа<br>
+
+        <!--<input type="text" name="group" size="20"
+                maxlength="50">-->
+
+        <select name="group" size="1">
+        <option selected value="vkontakte">vkontakte
+        <option value="mail">mail
+        <option value="facebook">facebook
+        </select><br>
+
+        
+        <br>Дата начала<br>
+        <input type="date" name="date-start" size="20"
+                maxlength="50">
+        <br>Дата окончания<br>
+        <input type="date" name="date-end" size="20"
+                maxlength="50" >
+        <br>Цвет<br>
+        <input type="color" name="color" size="20"
+                maxlength="50">             
+        <hr>
+        <input type="submit" name="submit" value="Отправить">
+        <!--<input class="close" type="button" name="submit" value="X" onclick="closeWindow()">-->
+        </form> 
+     </div>   
+     </div> 
+
+     </div>
+
+        <script src="javascripts/calendar.js"></script>    
+
+
+
+</body>
+</html>

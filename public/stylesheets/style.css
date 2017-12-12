@@ -1,0 +1,244 @@
+@import url(font-awesome.min.css);
+
+body {
+  padding: 40px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00B7FF;
+}
+
+#forma{
+  position: fixed;
+  border: 1px black solid;
+  padding: 5px 20px ;
+  width: 200px;
+  position: absolute;
+  display: block;
+  border-radius: 5px;
+  right: 10px;
+  top: 10px;
+  background-color: rgba(0,0,0,0.5);
+  color: white;
+  
+}
+
+#forma input{
+  background-color: lightgray;
+  border-radius: 5px;
+  margin: 0px 10px 7px 0px;
+}
+
+#hide{
+    position: absolute;
+}
+
+.close{
+  content: "X";
+  color: black;
+  width: 20px;
+  height: 20px;
+  background-color: lightslategray;
+  border: 1px solid black;
+  position: absolute;
+  top: 10px;
+  right: 1px;
+}
+
+.close:hover{
+    color: red;
+}
+
+.hideWindow{
+  display: none;
+}
+
+.fieldStyle{
+    width: 55em;
+    height: 30em;
+    background-color: lightgray;
+    margin: 1em 6em; 
+    padding-top: 10px;
+    background-image: url(1.jpg);
+    background-size: 100%;
+    border-radius: 5px;
+    position: relative;
+    right: 1%;
+}   
+
+.december{
+    width: 55em;
+    height: 30em;
+    background-color: lightgray;
+    margin: 1em 6em; 
+    padding-top: 10px;
+    background-image: url(2.jpg);
+    background-size: 100%;
+    border-radius: 5px;
+    position: relative;
+    right: 1%;
+}
+
+.march{
+    width: 55em;
+    height: 30em;
+    background-color: lightgray;
+    margin: 1em 6em; 
+    padding-top: 10px;
+    background-image: url(3.jpg);
+    background-size: 100%;
+    border-radius: 5px;
+    position: relative;
+    right: 1%;
+}
+
+.monthStyle{
+    font-size: 1em;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    text-shadow: 2px 2px 2px black;
+    /*margin-top: 5em;*/
+    /*display: block;*/
+}
+
+.week p{
+    margin-right: 2em;
+}
+
+.little{
+    width: 38.5em;
+    height: 25em;
+    background-color: rgba(128,128,128, 0.6);
+    border-radius: 3px;
+    margin: 0 auto;
+    /*margin-top: em;*/
+    padding: 3px;
+}
+
+.day{
+    width: 4.92em;
+    height: 4.4em;
+    background-color: white;
+    border-radius: 2px;
+    display: inline-block;
+    float: left;
+    margin: 5px 2.5px 2.5px 5px;
+    box-shadow: 0 0 5px;
+}
+
+.day123{
+    width: 4.92em;
+    height: 4.4em;
+    background-color: greenyellow;
+    border-radius: 2px;
+    display: inline-block;
+    float: left;
+    margin: 5px 2.5px 2.5px 5px;
+    box-shadow: 0 0 5px;
+}
+
+.head{
+    background: linear-gradient(to top,deepskyblue,white);
+    height: 1em;
+    width: inherit;
+    display: inline-block;
+    float: left;
+    box-shadow: 1px 2px 2px black;
+}
+
+.day:hover{
+    background-color: lightgray;
+}
+
+.head:hover{
+    background: linear-gradient(to top,mediumpurple,white);
+}
+
+.note{
+    font-size: 1em;
+    font-style: italic;
+    overflow: hidden;
+    color: orangered;
+}
+
+.noteNothing{
+    display: none;
+}
+
+.clock{
+    position: absolute;
+    width: 50px;
+    background-color: rgba(0,0,0,0.5);
+    color: black;
+}
+
+.dayOfWeek{
+    float: left;
+    display: inline-block;
+    color: white;
+    font-weight: bold;
+    text-shadow: 2px 2px 2px black;
+    margin-right: 1em;
+    font-size: 13px;
+}
+
+.dayOfWeek:nth-child(2){
+    margin-right: 2em;                     
+}
+
+.slider {
+    height: 30rem;
+    position: relative;
+}
+
+.slider li {
+    background-origin: padding-box;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    display: none;
+}
+
+.slider li.active {
+    display: block;
+}
+
+.slider .arrow-prev,
+.slider .arrow-next {
+    color: #aaa;
+    font-size: 6.4rem;
+    position: absolute;
+    /*top: 0;*/
+    /*line-height: 30rem;*/
+    top: 50%;
+    height: 6.4rem;
+    margin-top: -3.2rem;
+}
+
+.slider .arrow-prev {
+    left: 2rem;
+}
+
+.slider .arrow-next {
+    right: 2rem;
+}
+
+.span1{
+    position: relative;
+    right: 97px;
+  
+}
+
+.span1:hover{
+    color: red;
+}
+
+.span2:hover{
+    color: red;
+}
